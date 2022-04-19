@@ -181,7 +181,7 @@ header{
 
 /* ------------- Side Navbar ----------------- */
 .sidenav {
-  height: calc(100% - 56px);
+  height: 100%;
   width: 0;
   position: fixed;
   z-index: 1;
