@@ -125,7 +125,8 @@ img{
 }
 header{
      background-color: var(--p-color);
-     min-height: 100vh;
+     height: 100vh;
+     overflow: hidden;
 }
 .bars-con i{
      font-size: var(--fz-xxlg);
