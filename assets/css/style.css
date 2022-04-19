@@ -52,7 +52,7 @@ img{
      color: var(--btn-color);
 }
 .p-text{
-     font-size: var(--fz-xxlg);
+     font-size: var(--fz-lg);
      color: var(--p-color);
 }
 .fa{
@@ -184,7 +184,7 @@ main{
 
 /*---------- Service style -----------*/
 .service-con{
-     height: 90vh;
+     min-height: 90vh;
 }
 .service-box{
      margin: 20px 0;
