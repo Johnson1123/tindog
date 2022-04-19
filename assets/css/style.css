@@ -12,6 +12,7 @@
      --we-300: 300;
      --we-600: 600;
      --we-500: 500;
+     --we-900: 900;
      --w-80: 80%;
      --w-100: 100%;
      --w-50: 50%;
@@ -44,14 +45,17 @@ img{
      line-height: 2;
 }
 .title{
-     font-weight: var(--we-600);
-     font-size: var(--fz-xlg);
+     font-weight: var(--we-900);
+     font-size: var(--fz-xxlg);
      line-height: 2;
      font-family: montserrat;
-     color: var(--s-color);
+     color: var(--btn-color);
+}
+.p-text{
+     font-size: var(--fz-xxlg);
+     color: var(--p-color);
 }
 .fa{
-     font-size: var(--fz-lg);
      color: var(--s-color);
      margin: 0 5px;
 }
@@ -175,6 +179,19 @@ header{
 
 /* ----------- main ------------------- */
 main{
-     height: 100vh;
+     height: auto;
 }
 
+/*---------- Service style -----------*/
+.service-con{
+     height: 90vh;
+}
+.service-box{
+     margin: 20px 0;
+}
+.ser-p{
+     text-align: center;
+}
+.ser-icon{
+     margin: 10px 0;
+}
