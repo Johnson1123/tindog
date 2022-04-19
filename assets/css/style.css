@@ -125,7 +125,7 @@ img{
 }
 header{
      background-color: var(--p-color);
-     height: 100vh;
+     height: 70vh;
      overflow: hidden;
 }
 .header-con{
@@ -147,7 +147,7 @@ header{
      font-size: var(--fz-ban);
      line-height: 1.5;
      color: #fff;
-     height: 250px;
+     height: 200px;
 }
 .banner-btn-con{
      height: 50px;
@@ -159,16 +159,17 @@ header{
      height: 60px;
 }
 .banner-right{
-     overflow-y: hidden;
      padding: 20px;
+     height: 200px;
 }
 .ban-img-con{
      transform: rotate(10deg);
      width: var(--w-80);
-     overflow-y: hidden;
+    
 }
 .ban-img-con img{
      border-radius: 20px;
+     height: 400px;
 }
 
 
