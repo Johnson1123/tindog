@@ -132,6 +132,9 @@ header{
      height: 100%;
      overflow: hidden;
 }
+.navbar{
+     height: 100px;
+}
 .bars-con i{
      font-size: var(--fz-xxlg);
 }
@@ -140,27 +143,24 @@ header{
      color: #fff;
 }
 .banner-left{
-     margin-bottom: 20px;
+     margin-bottom: 30px;
 }
 .banner-text{
      font-weight: var(--we-600);
      font-size: var(--fz-ban);
      line-height: 1.5;
      color: #fff;
-     height: 200px;
+     height: 250px;
 }
 .banner-btn-con{
-     height: 50px;
+     height: 70px;
 }
 .btn-ban i{
      padding-right: 5px;
 }
-.navbar{
-     height: 60px;
-}
 .banner-right{
      padding: 20px;
-     height: 200px;
+     height: 100%;
 }
 .ban-img-con{
      transform: rotate(10deg);
