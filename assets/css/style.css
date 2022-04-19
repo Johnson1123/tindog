@@ -27,6 +27,10 @@
 
 
 /*-------- Element style  ----------*/
+html{
+     width: 100%;
+     overflow: hidden;
+}
 .a{
      text-decoration: none;
 }
@@ -128,6 +132,10 @@ header{
      height: 100vh;
      overflow: hidden;
 }
+.header-con{
+     height: 100%;
+     overflow: hidden;
+}
 .bars-con i{
      font-size: var(--fz-xxlg);
 }
@@ -143,7 +151,7 @@ header{
      font-size: var(--fz-ban);
      line-height: 1.5;
      color: #fff;
-     height: 200px;
+     height: 250px;
 }
 .banner-btn-con{
      height: 50px;
