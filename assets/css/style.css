@@ -27,10 +27,6 @@
 
 
 /*-------- Element style  ----------*/
-html{
-     width: 100%;
-     overflow: hidden;
-}
 .a{
      text-decoration: none;
 }
@@ -163,15 +159,22 @@ header{
      height: 60px;
 }
 .banner-right{
-     overflow: hidden;
+     overflow-y: hidden;
      padding: 20px;
 }
 .ban-img-con{
      transform: rotate(10deg);
-     height: 470px;
      width: var(--w-80);
+     overflow-y: hidden;
 }
 .ban-img-con img{
      border-radius: 20px;
+     height: 470px;
+}
+
+
+/* ----------- main ------------------- */
+main{
+     height: 100vh;
 }
 
