@@ -39,7 +39,7 @@ img{
 
 /* --------- universal classs ------------- */
 .text{
-     font-family: "montserrat-light";
+     font-family: montserrat;
      font-weight: 400;
      font-size: var(--fz-sm);
      line-height: 2;
@@ -58,6 +58,9 @@ img{
 .fa{
      color: var(--s-color);
      margin: 0 5px;
+}
+.icon-dark{
+     color: var(--p-color);
 }
 .btn{
      border: none;
@@ -176,6 +179,41 @@ header{
      height: 400px;
 }
 
+/* ------------- Side Navbar ----------------- */
+.sidenav {
+  height: calc(100% - 56px);
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--s-color);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: var(--p-color);
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
 
 /* ----------- main ------------------- */
 main{
@@ -187,11 +225,12 @@ main{
      min-height: 90vh;
 }
 .service-box{
-     margin: 20px 0;
+     margin: 15px 0;
 }
 .ser-p{
      text-align: center;
+     padding: 5px 10px;
 }
 .ser-icon{
-     margin: 10px 0;
+     margin: 5px 0;
 }

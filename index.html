@@ -25,7 +25,7 @@
                          <link rel="stylesheet" href="" class="nav-link text"><a href="" class="text nav-a">Pricing</a></link>
                          <link rel="stylesheet" href="" class="nav-link text"><a href="" class="text nav-a">Download</a></link>
                     </nav>
-                    <div class="bars-con"><i class="fa fa-bars"></i></div>
+                    <div class="bars-con" onclick="openNav()"><i class="fa fa-bars"></i></div>
                </div>
                <div class="banner-con w-80 center column">
                     <div class="banner-left w-100">
@@ -44,6 +44,13 @@
                     </div>
                </div>
           </div>
+          <div id="mySidenav" class="sidenav">
+               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+               <a href="#" class="text">Home</a>
+               <a href="#" class="text">Contact</a>
+               <a href="#" class="text">Pricing</a>
+               <a href="#" class="text">Download</a>
+          </div>
      </header>
 
      <!-------------- main ------------->
@@ -54,17 +61,17 @@
           <section class="center">
                <div class="service-con w-80 center column">
                     <div class="service-box w-80 center column">
-                         <div class="ser-icon"><i class="fa fa-check-circle fa-3x"></i></div>
+                         <div class="ser-icon"><i class="fa fa-check-circle fa-3x icon-dark"></i></div>
                          <h4 class="text title">Easy to use</h4>
                          <p class="text ser-p p-text">So easy to use, even your dog could do.</p>
                     </div>
                     <div class="service-box w-80 center column">
-                         <div class="ser-icon"><i class="fa fa-dot-circle-o fa-3x"></i></div>
+                         <div class="ser-icon"><i class="fa fa-dot-circle-o fa-3x icon-dark"></i></div>
                          <h4 class="text title">Elite Clientele</h4>
                          <p class="text ser-p p-text">We have all the dogs, the greastess dogs</p>
                     </div>
                     <div class="service-box w-80 center column">
-                         <div class="ser-icon"><i class="fa fa-heart fa-3x"></i></div>
+                         <div class="ser-icon"><i class="fa fa-heart fa-3x icon-dark"></i></div>
                          <h4 class="text title">Guaranteed to work</h4>
                          <p class="text ser-p p-text">Find the love of your dog's life or your money</p>
                     </div>
@@ -72,5 +79,18 @@
           </section>
        
      </main>
+     <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.body.style.backgroundColor = "#51c4D3";
+          }
+
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+            document.body.style.backgroundColor = "white";
+          }
+     </script>
 </body>
 </html>
