@@ -275,6 +275,8 @@ main{
 }
 .plan-con-title{
      height: 10vh;
+     font-size: 25px;
+     text-align: center;
 }
 .plan-con-text{
      height: 15vh;
@@ -289,7 +291,7 @@ main{
 .plan-sub-title{
      width: 100%;
      background-color: var(--s-color);
-     border: 1px solid var(--btn-color);
+     border-bottom: 1px solid var(--btn-color);
      height: 8vh;
 }
 .plan-detail-box{
@@ -318,4 +320,20 @@ main{
 }
 .plan-detail-box ul{
      height: 100%;
+}
+
+/************ Advert style  ***********/
+.advert{
+     background-color: var(--p-color);
+     min-height: 50vh;
+}
+.advert-title{
+     text-align: center;
+     height: 25vh;
+}
+.advert-btn-con{
+     height: 15vh;
+}
+.advert-btn-con .btn{
+     margin: 0 10px;
 }
