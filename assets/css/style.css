@@ -1,10 +1,10 @@
 :root{
-     --fz-sm: 12px;
-     --fz-md: 14px;
-     --fz-lg: 16px;
-     --fz-xlg: 18px;
-     --fz-xxlg: 20px;
-     --fz-ban: 30px;
+     --fz-sm: .75rem;
+     --fz-md: .88rem;
+     --fz-lg: 1rem;
+     --fz-xlg: 1.13rem;
+     --fz-xxlg: 1.25rem;
+     --fz-ban: 1.9rem;
      --p-color: #126E82;
      --s-color: #D8E3E7;
      --o-color: #51c4D3;
@@ -28,6 +28,9 @@
 
 
 /*-------- Element style  ----------*/
+body{
+     font-size: 16px;
+}
 .a{
      text-decoration: none;
 }
@@ -36,13 +39,13 @@ img{
      height: 100%;
 }
 
-
 /* --------- universal classs ------------- */
 .text{
      font-family: montserrat;
      font-weight: 400;
      font-size: var(--fz-sm);
      line-height: 1.7;
+     color: var(--s-color);
 }
 .title{
      font-weight: var(--we-900);
@@ -71,7 +74,6 @@ img{
      text-align: center;
      background-color: var(--btn-color);
      color: var(--s-color);
-     margin-left: 10px;
 }
 .btn-lg{
      height: 35px;
@@ -175,6 +177,20 @@ header{
 .banner-btn-con{
      height: 25%;
 }
+.btn-ban:first-of-type{
+     margin-right: 10px;
+}
+.btn-ban:first-of-type:hover{
+     background-color: transparent;
+     border: 1px solid #fff;
+}
+.btn-outline:hover {
+     background-color: var(--s-color);
+     color: var(--btn-color);
+}
+.btn-outline:hover i, .btn-outline:hover a{
+     color: var(--btn-color);
+}
 .btn-ban i{
      padding-right: 5px;
 }
@@ -243,7 +259,7 @@ main{
 .ser-p{
      text-align: center;
      padding: 5px 10px;
-     text-align: left;
+     text-align: center;
 }
 .ser-icon{
      margin: 5px 0;
