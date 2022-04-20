@@ -130,9 +130,12 @@ img{
 .nav-con{
      display: none;
 }
+
+
 header{
      background-color: var(--p-color);
-     height: calc(100vh - 56px);
+     height: 100vh;
+     max-height: 100vh;
      overflow: hidden;
 }
 .header-con{
@@ -140,7 +143,10 @@ header{
      overflow: hidden;
 }
 .navbar{
-     height: 100px;
+     height: 10%;
+}
+.banner-con{
+     height: 90%;
 }
 .bars-con i{
      font-size: var(--fz-xxlg);
@@ -151,23 +157,24 @@ header{
 }
 .banner-left{
      margin-bottom: 30px;
+     height: 40%;
 }
 .banner-text{
      font-weight: var(--we-600);
      font-size: var(--fz-ban);
      line-height: 1.5;
      color: #fff;
-     height: 250px;
+     height: 75%;
 }
 .banner-btn-con{
-     height: 70px;
+     height: 25%;
 }
 .btn-ban i{
      padding-right: 5px;
 }
 .banner-right{
      padding: 20px;
-     height: 100%;
+     height: 45%;
 }
 .ban-img-con{
      transform: rotate(10deg);
@@ -176,7 +183,7 @@ header{
 }
 .ban-img-con img{
      border-radius: 20px;
-     height: 400px;
+     height: 500px;
 }
 
 /* ------------- Side Navbar ----------------- */
@@ -196,7 +203,7 @@ header{
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: var(--fz-xlg);
   color: var(--p-color);
   display: block;
   transition: 0.3s;
@@ -229,7 +236,7 @@ main{
 }
 .ser-p{
      text-align: center;
-     padding: 5px 10px;
+     padding: 5px 25px;
 }
 .ser-icon{
      margin: 5px 0;
