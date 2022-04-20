@@ -50,7 +50,7 @@ img{
 .title{
      font-weight: var(--we-900);
      font-size: var(--fz-xxlg);
-     line-height: 2;
+     line-height: 1.5;
      font-family: montserrat;
      color: var(--btn-color);
      text-align: left;
@@ -74,6 +74,10 @@ img{
      text-align: center;
      background-color: var(--btn-color);
      color: var(--s-color);
+     /* outline: none; */
+}
+.link-plan{
+     list-style: none;
 }
 .btn-lg{
      height: 35px;
@@ -263,4 +267,51 @@ main{
 }
 .ser-icon{
      margin: 5px 0;
+}
+
+/************ Plan style ***********/
+.plan{
+     min-height: 100vh;
+}
+.plan-con-title{
+     height: 10vh;
+}
+.plan-con-text{
+     height: 15vh;
+}
+.plan-box{
+     border: 1px solid var(--btn-color);
+     border-radius: 5px;
+     min-height: 287px;
+     margin: 40px 0;
+
+}
+.plan-sub-title{
+     width: 100%;
+     background-color: var(--s-color);
+     border: 1px solid var(--btn-color);
+     height: 8vh;
+}
+.plan-detail-box{
+     height: 280px;
+}
+.plan-title{
+     font-size: var(--fz-ban);
+     line-height: 2;
+     height: 20%;
+}
+.btn-plan{
+     display: block;
+     background-color: transparent;
+     color: var(--btn-color);
+     line-height: 40px;
+     min-height: 40px;
+     border: 1px solid var(--btn-color);
+     margin: 10px 0;
+}
+.link-plan{
+     height: 40px;
+}
+.plan-detail-box ul{
+     height: 100%;
 }
