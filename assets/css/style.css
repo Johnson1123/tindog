@@ -309,6 +309,10 @@ main{
      border: 1px solid var(--btn-color);
      margin: 10px 0;
 }
+.btn-plan:hover, .btn-plan:active{
+     background-color: var(--btn-color);
+     color: var(--s-color);
+}
 .link-plan{
      height: 40px;
 }
