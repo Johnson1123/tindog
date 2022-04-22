@@ -352,13 +352,6 @@ main{
 
 
 
-
-
-
-
-
-
-
 /************ Medium screen design  ************/
 @media screen and (min-width: 600px)  {
      :root{
@@ -515,29 +508,175 @@ main{
      .advert-btn-con{
           height: 20%;
      }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
      
 }
 
+@media screen and (min-width: 920px)  {
+     :root{
+          --fz-sm: .75rem;
+          --fz-md: .88rem;
+          --fz-lg: 1rem;
+          --fz-xlg: 1.13rem;
+          --fz-xxlg: 1.25rem;
+          --fz-ban: 1.9rem;
+     }
+     .btn-lg{
+          width: 120px;
+          height: 40px;
+     }
+
+     /*********** Banner Style  **********/
+     .nav-con{
+          width: 30%;
+     }
+     .nav-a{
+          font-size: var(--fz-md);
+     }
+     .banner-con{
+          justify-content: flex-start;
+     }
+     .banner-left{
+          height: 50%;
+          width: 40%;
+     }
+     .banner-text{
+          height: 80%;
+          padding: 15px 0;
+          font-size: 34px;
+     }
+     .banner-right{
+          width: 30%;
+     }
+     .ban-img-con{
+          height: 400px;
+          width: 100%;
+     }
+     .ban-img-con img{
+          height: 100%;
+     }
+
+     /*********** Service style ************/
+     .service{
+          height: 50vh;
+     }
+     .service-con{
+          width: 80%;
+          align-items: center;
+          justify-content: space-between;
+          
+     }
+     .service-box{
+          max-height: 200px;
+          width: 25%;
+          margin: 50px 0;
+     }
+     .ser-icon{
+          height: 15%;
+     }
+     .ser-icon i{
+          font-size: 30px;
+     }
+     .service-title{
+          text-align: center;
+          height: 50px;
+          line-height: 50px;
+          font-size: var(--fz-lg);
+     }
+     .ser-p{
+          max-height: 50%;
+          overflow: hidden;
+          font-size: var(--fz-md);
+     }
+     
+
+     /************ Plan style  *********/
+     .plan{
+          min-height: 70vh;
+     }
+     .plan-wrapper{
+          width: 90%;
+     }
+     .plan-con{
+          flex-direction: row;
+          justify-content: space-between;
+          width: 80%;
+     }
+     .plan-con-text{
+          font-size: var(--fz-md);
+     }
+     .plan-box{
+          width: 30%;
+          height: 280px;
+     }
+     .plan-detail-box{
+          height: 220px;
+     }
+     .plan-sub-title{
+          font-size: var(--fz-md);
+          height: 18%;
+     }
+     .plan-detail-ul{
+          height: 40%;
+          justify-content: flex-start;
+     }
+     .plan-title{
+          font-size: var(--fz-xlg);
+     }
+     .link-plan{
+          font-size: var(--fz-sm);
+          height: 30px;
+     }
+
+     /***************** advert ******************/ 
+     .advert-con{
+          align-items: flex-start;
+     }
+     .advert-title{
+          height: 20%;
+          margin: 20px 0;
+          font-size: var(--fz-xxlg);
+     }
+     .advert-btn-con{
+          height: 20%;
+     }
+     .advert-btn-con .btn-add:first-child{
+          margin-left: 0;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
