@@ -353,7 +353,7 @@ main{
 
 
 /************ Medium screen design  ************/
-@media screen and (min-width: 600px)  {
+@media screen and (min-width: 968px)  {
      :root{
           --fz-sm: 1rem;
           --fz-md: 1.13rem;
@@ -519,7 +519,7 @@ main{
      
 }
 
-@media screen and (min-width: 920px)  {
+@media screen and (min-width: 1025px)  {
      :root{
           --fz-sm: .75rem;
           --fz-md: .88rem;
