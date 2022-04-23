@@ -397,6 +397,13 @@ main{
      }
 
      /*********** Banner Style  **********/
+     header{
+          height: auto;
+          overflow: hidden;
+     }
+     .navbar{
+          height: 80px;
+     }
      .nav-con{
           display: flex;
           width: 50%;
@@ -405,14 +412,12 @@ main{
      .nav-link{
           margin: 10px 10px;
      }
-     header{
-          overflow: hidden;
-     }
      .banner-left{
           height: 50%;
      }
      .banner-text{
-          height: 70%;
+          height: 300px;
+          margin: 20px 0;
      }
      .banner-btn-con{
           height: 15%;
@@ -420,7 +425,7 @@ main{
      .banner-right{
           position: relative;
           z-index: 2;
-          top: 70px;
+          top: 200px;
      }
      .ban-img-con{
           height: 600px;
@@ -436,6 +441,7 @@ main{
      }
      .service-con{
           width: 90%;
+          min-height: 100%;
      }
      .service-box{
           max-height: 250px;
@@ -495,18 +501,20 @@ main{
 
      /***************** advert ******************/ 
      .advert{
-          height: 50vh;
+          height: auto;
+          min-height: 35vh;
      }
      .advert-con{
           height: 100%;
+          align-items: flex-start;
      }
      .advert-title{
-          height: 20%;
+          height: 150px;
           line-height: 2;
           font-size: var(--fz-xxlg);
      }
      .advert-btn-con{
-          height: 20%;
+          height: 60px;
      }
      
 }
